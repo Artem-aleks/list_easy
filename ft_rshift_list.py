@@ -10,7 +10,7 @@ def ft_rshift_list(num):
     n = 0
     while z - 1 > n:
         c = num[-z]
-        num[-z] = num[-z - 1] = c
+        num[-z] = num[-(z + 1)] = c
         n += 1
         z += 1
     return num
