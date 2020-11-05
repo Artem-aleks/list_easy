@@ -7,10 +7,10 @@ def ft_len(v):
 
 def ft_positive_list(num):
     f = ft_len(num)
-    k = 0
+    z = 0
     x = 0
     for x in range(f):
         if num[x] > 0:
-            k += 1
+            z += 1
         x += 1
-    return k
+    return z
